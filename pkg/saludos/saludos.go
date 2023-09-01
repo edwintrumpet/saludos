@@ -1,5 +1,5 @@
 package saludos
 
-func hola() string {
+func Hola() string {
 	return "hola mundo!"
 }
