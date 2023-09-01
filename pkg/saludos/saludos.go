@@ -1,5 +1,7 @@
 package saludos
 
-func Hola() string {
-	return "hola mundo, te saludo desde el paquete saludos en la versión estable!"
+import "fmt"
+
+func Hola(name string) string {
+	return fmt.Sprintf("hola %s!", name)
 }
